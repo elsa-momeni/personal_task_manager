@@ -15,5 +15,13 @@ if open_admin.lower() == "yes":
 
 name = input("whats your name ?")
 print("welcome", name)
+
+priority = input("Enter task priority (low/medium/high): ")
+
+if priority.lower() in ["low", "medium", "high"]:
+    print("Priority:", priority.lower())
+else:
+    print("Invalid priority")
+
 with open("tasks.txt", "a") as file:
-    file.write(f"{name} -")
+    file.write(f"{name} - Priority: {priority.lower()}\n")
