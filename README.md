@@ -30,6 +30,11 @@ A simple quiz game built with Python
   - keeps the private information outside the main python file
   - Loads the password from `.env`
 
+## Priority
+In this program, the priority lies with certain files, such as `main.py`, `tasks.py`, and `README.md`.
+I shared the important files on the `GitHub` page.
+And when you run the program for instance, by entering your name and answering the rest of the questions the data is saved into the `tasks.txt` file.
+
 
 ## Project Struture
 
